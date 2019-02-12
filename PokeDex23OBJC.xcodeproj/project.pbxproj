@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B41032E121DBD5C300061B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B41032E021DBD5C300061B83 /* AppDelegate.m */; };
-		B41032E421DBD5C300061B83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41032E321DBD5C300061B83 /* ViewController.m */; };
 		B41032E721DBD5C300061B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41032E521DBD5C300061B83 /* Main.storyboard */; };
 		B41032E921DBD5C400061B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41032E821DBD5C400061B83 /* Assets.xcassets */; };
 		B41032EC21DBD5C400061B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41032EA21DBD5C400061B83 /* LaunchScreen.storyboard */; };
 		B41032EF21DBD5C400061B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B41032EE21DBD5C400061B83 /* main.m */; };
+		B41032F821DBD6C000061B83 /* CRMPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B41032F721DBD6C000061B83 /* CRMPokemon.m */; };
+		B41032FC21DBDAA700061B83 /* CRMPokemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41032FB21DBDAA700061B83 /* CRMPokemonController.m */; };
+		B410330021DBEFB000061B83 /* CRMPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41032FF21DBEFB000061B83 /* CRMPokemonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B41032DC21DBD5C300061B83 /* PokeDex23OBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex23OBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41032DF21DBD5C300061B83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B41032E021DBD5C300061B83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B41032E221DBD5C300061B83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B41032E321DBD5C300061B83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B41032E621DBD5C300061B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B41032E821DBD5C400061B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41032EB21DBD5C400061B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B41032ED21DBD5C400061B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B41032EE21DBD5C400061B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B41032F621DBD6C000061B83 /* CRMPokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMPokemon.h; sourceTree = "<group>"; };
+		B41032F721DBD6C000061B83 /* CRMPokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMPokemon.m; sourceTree = "<group>"; };
+		B41032FA21DBDAA700061B83 /* CRMPokemonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMPokemonController.h; sourceTree = "<group>"; };
+		B41032FB21DBDAA700061B83 /* CRMPokemonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMPokemonController.m; sourceTree = "<group>"; };
+		B41032FE21DBEFB000061B83 /* PokeDex23OBJC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokeDex23OBJC-Bridging-Header.h"; sourceTree = "<group>"; };
+		B41032FF21DBEFB000061B83 /* CRMPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMPokemonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +64,45 @@
 		B41032DE21DBD5C300061B83 /* PokeDex23OBJC */ = {
 			isa = PBXGroup;
 			children = (
+				B41032E521DBD5C300061B83 /* Main.storyboard */,
+				B41032F921DBDA8800061B83 /* Models */,
+				B41032FD21DBEF0300061B83 /* Model Controller */,
+				B41032F521DBD5FD00061B83 /* Resources */,
+				B41032FF21DBEFB000061B83 /* CRMPokemonViewController.swift */,
+				B41032FE21DBEFB000061B83 /* PokeDex23OBJC-Bridging-Header.h */,
+			);
+			path = PokeDex23OBJC;
+			sourceTree = "<group>";
+		};
+		B41032F521DBD5FD00061B83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B41032DF21DBD5C300061B83 /* AppDelegate.h */,
 				B41032E021DBD5C300061B83 /* AppDelegate.m */,
-				B41032E221DBD5C300061B83 /* ViewController.h */,
-				B41032E321DBD5C300061B83 /* ViewController.m */,
-				B41032E521DBD5C300061B83 /* Main.storyboard */,
 				B41032E821DBD5C400061B83 /* Assets.xcassets */,
 				B41032EA21DBD5C400061B83 /* LaunchScreen.storyboard */,
 				B41032ED21DBD5C400061B83 /* Info.plist */,
 				B41032EE21DBD5C400061B83 /* main.m */,
 			);
-			path = PokeDex23OBJC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B41032F921DBDA8800061B83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B41032F621DBD6C000061B83 /* CRMPokemon.h */,
+				B41032F721DBD6C000061B83 /* CRMPokemon.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B41032FD21DBEF0300061B83 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B41032FA21DBDAA700061B83 /* CRMPokemonController.h */,
+				B41032FB21DBDAA700061B83 /* CRMPokemonController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,11 +131,13 @@
 		B41032D421DBD5C300061B83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Cameron Milliken";
 				TargetAttributes = {
 					B41032DB21DBD5C300061B83 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -141,7 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41032E421DBD5C300061B83 /* ViewController.m in Sources */,
+				B410330021DBEFB000061B83 /* CRMPokemonViewController.swift in Sources */,
+				B41032FC21DBDAA700061B83 /* CRMPokemonController.m in Sources */,
+				B41032F821DBD6C000061B83 /* CRMPokemon.m in Sources */,
 				B41032EF21DBD5C400061B83 /* main.m in Sources */,
 				B41032E121DBD5C300061B83 /* AppDelegate.m in Sources */,
 			);
@@ -285,14 +323,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PokeDex23OBJC/Info.plist;
+				DEVELOPMENT_TEAM = AH8N698PRG;
+				INFOPLIST_FILE = "$(SRCROOT)/PokeDex23OBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Cameron-Milliken.PokeDex23OBJC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeDex23OBJC/PokeDex23OBJC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,14 +344,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PokeDex23OBJC/Info.plist;
+				DEVELOPMENT_TEAM = AH8N698PRG;
+				INFOPLIST_FILE = "$(SRCROOT)/PokeDex23OBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Cameron-Milliken.PokeDex23OBJC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeDex23OBJC/PokeDex23OBJC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
